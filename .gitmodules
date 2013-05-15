@@ -1,0 +1,3 @@
+[submodule "repository"]
+	path = repository
+	url = git://github.com/jbeard4/SCION-ng.git
