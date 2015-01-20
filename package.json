@@ -8,29 +8,23 @@
     "w3c",
     "javascript"
   ],
-  "maintainers": [
-    {
-      "name": "Jacob Beard",
-      "email": "jbeard4@cs.mcgill.ca",
-      "url": "http://echo-flow.com"
-    }
-  ],
+  "maintainers": [{
+    "name": "Jacob Beard",
+    "email": "jbeard4@cs.mcgill.ca",
+    "url": "http://echo-flow.com"
+  }],
   "bugs": {
     "email": "jbeard4@cs.mcgill.ca",
     "url": "https://github.com/jbeard4/SCION-ng/issues"
   },
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "https://github.com/jbeard4/SCION-ng/blob/master/LICENSE.txt"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jbeard4/SCION-ng.git"
-    }
-  ],
+  "licenses": [{
+    "type": "Apache-2.0",
+    "url": "https://github.com/jbeard4/SCION-ng/blob/master/LICENSE.txt"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbeard4/SCION-ng.git"
+  },
   "devDependencies": {
     "async": "0.2.5",
     "es5-shim": "2.0.8",
@@ -111,3 +105,4 @@
     ]
   }
 }
+
