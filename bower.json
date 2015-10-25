@@ -1,0 +1,27 @@
+{
+    "name": "scion-ng",
+    "version": "0.1.2",
+    "homepage": "http://jbeard4.github.io/SCION-ng",
+    "authors": [
+        "Jacob Beard"
+    ],
+    "description": "StateCharts Interpretation and Optimization eNgine (SCION) is an implementation of Statecharts in JavaScript. This is a transitional package for the next generation of SCION",
+    "main": [
+        "lib/scion.js"
+    ],
+    "ignore": [
+        "*",
+        "!dist/scion.min.js",
+        "!lib/scion.js"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    },
+    "keywords": [
+        "scxml",
+        "statecharts",
+        "w3c",
+        "javascript"
+    ]
+}
