@@ -38,10 +38,15 @@ Install SCION-CORE via npm:
 
 # API
 
-## new scion.Statechart(model)
+## new scion.Statechart(model, Object opts)
 
 The SCXML constructor creates an interpreter instance from a model object.
-
+opts:
+snapshot : JSONstring - pass in a snapshot
+sessionid : String - to be set as _sessionid inside the state machine
+customSend : Function - function to be used when <send> is fired inside the statemachine
+ioprocessors: 
+  
 ```javascript
     //same model can be used to create multiple interpreter instances
     var sc1 = new scion.Statechart(model),
